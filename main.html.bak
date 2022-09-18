@@ -1,0 +1,32 @@
+<html lang="sv">
+
+	<head>
+	<title>Östersunds Vaktförmedling</title>
+	<meta http-equiv="content-type" content="text/html" charset="UTF-8" />
+	<link rel="stylesheet" href="styles.css">
+	</head>
+	
+	<body>
+	<div class="parent">
+	
+	
+		<!-- NavigationBar -->
+			<div class="logo"><img src="images/logo.png" width="50%" height="90%"></img></div>
+			<div class="button1"><h3>Tjänster</h3></div>
+			<div class="button2"><h3>Om oss</h3></div>
+			<div class="button3"><h3>Kontakt</h3></div>
+			<div class="topbar"></img></div>
+			
+		<!-- Content -->	
+			<div class="body" style="color: black;">
+			<h1>Östersunds Vaktförmedling</h1>
+			<p>Hejsan vi är en förmedling</p>
+			</div>
+			<div class="border1">
+			</div>
+			<div class="border2"></div>
+
+
+	</div>
+	</body>
+</html>
