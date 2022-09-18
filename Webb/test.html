@@ -1,0 +1,108 @@
+<html lang="sv">
+
+	<head>
+	<title>Östersunds Vaktförmedling</title>
+	<meta http-equiv="content-type" content="text/html" charset="UTF-8" />
+	<style>
+	
+		body {
+		background-color: #ffffff;
+		margin: 0;
+		}
+
+		p {
+		font-size: 100%;
+		}
+
+		.parent {
+		display: grid;
+		grid-template-columns: 0.75fr 1fr 1fr 1fr 10fr;
+		grid-template-rows: 1fr 1fr 15fr 1fr;
+		grid-column-gap: 0px;
+		grid-row-gap: 0px;
+		width: 100%;
+		height: 100%;
+		background-color: #031f30;
+		font-family: helvetica;
+		}
+
+		.parent > div {
+		min-height: 50px;
+		color: white;
+		}
+
+		.logo {
+		grid-area: 1 / 1 / span 1 / span 1;
+		border: 1px #8fb3ef;
+		border-right-style: solid;
+		text-align: center;
+		}
+
+		.button1 {
+		grid-area: 1 / 2 / span 1 / span 1;
+		border: 1px #4c9aca;
+		border-right-style: solid;
+		text-align: center;
+		}
+
+		.button2 {
+		grid-area: 1 / 3 / span 1 / span 1;
+		border: 1px #4c9aca;
+		border-right-style: solid;
+		text-align: center;
+		}
+
+		button3 {
+		grid-area: 1 / 4 / span 1 / span 1;
+		border: 1px #4c9aca;
+		border-right-style: solid;
+		text-align: center;
+		}
+
+		.topbar {
+		grid-area: 1 / 5 / span 1 / span 1;
+		}
+
+		.border1 {
+		grid-area: 2 / 1 / span 1 / span 5;
+		background-color: #ffffff;
+		}	
+
+		.body {
+		grid-area: 3 / 1 / span 1 / span 5;
+		background-color: #ffffff;
+		font-family: open sans;
+		}
+
+		.border2 {
+		grid-area: 4 / 1 / span 1 / span 5;
+		background-color: #ffffff;
+		}
+	</style>
+	</head>
+	
+	<body>
+	
+	<div class="parent">
+	
+	
+		<!-- NavigationBar -->
+			<div class="logo"><img src="images/logo.png" width="50%" height="90%"></img></div>
+			<div class="button1"><p>Tjänster</p></div>
+			<div class="button2"><p>Om oss</p></div>
+			<div class="button3"><p>Kontakt</p></div>
+			<div class="topbar"></img></div>
+			
+		<!-- Content -->	
+			<div class="body" style="color: black;">
+			<h1>Östersunds Vaktförmedling</h1>
+			<p>Hejsan vi är en förmedling</p>
+			</div>
+			<div class="border1">
+			</div>
+			<div class="border2"></div>
+
+
+	</div>
+	</body>
+</html>
